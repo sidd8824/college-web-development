@@ -18,6 +18,4 @@ This repository contains my college web development practicals.
 - images/ - Project images
 
 ## Author
-Your Name
-
 siddharth

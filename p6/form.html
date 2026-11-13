@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <!-- Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name" required>
+
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password"
+               name="password" required>
+
+        <br><br>
+
+        <!-- Age -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"
+               min="16" max="30">
+
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label>
+
+        <input type="radio" id="male"
+               name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female"
+               name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <!-- Skills -->
+        <label>Skills:</label>
+
+        <input type="checkbox" id="html" name="skills"
+               value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css" name="skills"
+               value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="js" name="skills"
+               value="JavaScript">
+        <label for="js">JavaScript</label>
+
+        <br><br>
+
+        <!-- Course -->
+        <label for="course">Select Course:</label>
+
+        <select id="course" name="course">
+            <option value="">Choose a course</option>
+            <option value="BCA">BCA</option>
+            <option value="BTech">B.Tech</option>
+            <option value="BSc">B.Sc</option>
+        </select>
+
+        <br><br>
+
+        <!-- Date -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <br><br>
+
+        <!-- Message -->
+        <label for="message">Address:</label>
+        <br>
+        <textarea id="message" name="address"
+                  rows="4" cols="30"></textarea>
+
+        <br><br>
+
+        <!-- Submit and Reset -->
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>

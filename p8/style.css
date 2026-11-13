@@ -1,0 +1,51 @@
+
+/* Element Selector */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Element Selector */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Element Selector */
+h1 {
+    font-size: 36px;
+}
+
+/* Class Selector */
+.description {
+    color: #2563eb;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ID Selector */
+#special {
+    color: red;
+    background-color: #fff0f0;
+    padding: 10px;
+}
+
+/* Element Selector */
+section {
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+/* Element Selector */
+button {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
